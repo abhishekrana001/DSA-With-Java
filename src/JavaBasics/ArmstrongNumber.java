@@ -15,11 +15,21 @@ public class ArmstrongNumber {
         int num = sc.nextInt();
         int temp = num;
         int sum = 0;
+        int digits = 0;
+
+        while( temp != 0 ){
+            digits++;
+            temp = temp / 10;
+        }
+
+        temp = num;
+
         while(temp!=0){
             int digit = temp % 10;
-            sum += digit * digit * digit;
+            sum += (int) Math.pow(digit, digits);
             temp = temp/10;
         }
+
         if(num == sum){
             System.out.println("Armstrong number");
         }else {
