@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.BasicsRecursion;
 
 public class CountOfaNumber {
     public static int count(int n){

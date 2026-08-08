@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.BasicsRecursion;
 
 public class ReverseaNumber {
     public static void reverse(int rev, int n){

@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.BasicsRecursion;
 
 public class PrintN {
     public static void print(int current, int n){

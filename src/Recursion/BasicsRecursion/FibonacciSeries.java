@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.BasicsRecursion;
 
 public class FibonacciSeries {
     public static int fib(int n){

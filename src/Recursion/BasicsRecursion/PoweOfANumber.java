@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.BasicsRecursion;
 
 public class PoweOfANumber {
     public static int power(int base, int power){
