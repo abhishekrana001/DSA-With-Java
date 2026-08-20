@@ -16,6 +16,8 @@ public class ValidAnagram {
         for(int i=0; i<t.length(); i++){
             char ch = s.charAt(i);
             freq[ch - 'a']--;
+
+
         }
         for(int i=0; i<26; i++){
             if(freq[i] != 0){
